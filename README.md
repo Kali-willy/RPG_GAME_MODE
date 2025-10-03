@@ -47,7 +47,7 @@ adb shell ls -la /sdcard/RPG-46/R/P/G/-/4/6/
 ### **Step 3: Run the Script**
 ```bash
 # Standard method
-adb shell sh /sdcard/RPG-46.sh
+ sh /sdcard/RPG-46/RPG-46.sh
 
 # Keep it running in background
 adb shell "nohup sh /sdcard/RPG-46.sh > /dev/null 2>&1 &"
@@ -56,6 +56,9 @@ adb shell "nohup sh /sdcard/RPG-46.sh > /dev/null 2>&1 &"
 ---
 
 ## 🔧 How to Run on Brevent
+sh /sdcard/RPG-46/RPG-46.sh
+or
+sh /sdcard/name-file/RPG-46.sh
 
 ### **Method 1: Using Brevent Directly**
 
